@@ -7,7 +7,7 @@ class App extends Component {
 	  componentDidMount() {
 		  this.setState({isLoading: true});
 
-		  fetch('http://localhost:8080/orderBiryani')
+		  fetch('http://localhost:8080/getMenu')
 		    .then(response => response.json())
 		    .then(data => this.setState({beers: data, isLoading: false}));
 		}
