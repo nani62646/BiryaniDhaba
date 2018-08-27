@@ -10,12 +10,14 @@ import lombok.Setter;
  * @author ranjith.kandi
  *
  */
+@Getter
+@Setter
 public class Biryani {
 	
-	@Getter @Setter
 	private boolean chickenBiryani;
 	
-	@Getter @Setter 
 	private boolean muttonBiryani;
+	
+	private boolean vegBiryani;
 
 }
